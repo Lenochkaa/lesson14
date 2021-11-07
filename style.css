@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(./img/back2.jpg);
+    background-size: 100%;
+}
+.forma {
+    width: 100%;
+    height: 700px;
+    
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Noto Serif Display', serif;
+    color: white;
+}
+form {
+    width: 900px;
+    height: 500px;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.096);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    border-radius: 25px;
+    -webkit-box-shadow: 8px -3px 12px -5px rgba(0,0,0,0.66); 
+    box-shadow: 8px -3px 12px -5px rgba(0,0,0,0.66);
+}
+.info {
+    width: 370px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.29);
+    border-radius: 25px;
+    -webkit-box-shadow: 8px -3px 12px -5px rgba(0,0,0,0.66); 
+    box-shadow: 8px -3px 12px -5px rgba(0,0,0,0.66);
+}
+.user_self {
+    text-align: center;
+    font-size: 160px;
+    margin-top: 10px;
+    color: rgba(131, 40, 120, 0.50);
+}
+.user_text {
+    text-align: center;
+    margin-top: 23px;
+}
+.user_text p {
+    font-size: 18px;
+    font-family: 'Noto Serif Display', serif;
+    color: white;
+}
+.user_text i {
+    font-size: 80px;
+    color: rgba(131, 40, 120, 0.50);
+    margin-top: 10px;
+}
+.info_box {
+    width: 370px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.29);
+    border-radius: 25px;
+    -webkit-box-shadow: 8px -3px 12px -5px rgba(0,0,0,0.66); 
+    box-shadow: 8px -3px 12px -5px rgba(0,0,0,0.66);
+}
+input::placeholder {
+    text-align: center;
+}
+.info_box div {
+    margin: 10px auto;
+    width: 250px;
+    height: 50px;
+}
+input {
+    margin: 10px 0;
+    width: 250px;
+    height: 40px;
+    border: none;
+    background-color: white;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: bold;
+}
+.button {
+    width: 400px;
+    height: 300px;
+    padding-top: 50px;
+}
+button {
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Noto Serif Display', serif;
+    -webkit-box-shadow: 8px -3px 12px -5px rgba(0,0,0,0.66); 
+    box-shadow: 8px -3px 12px -5px rgba(0,0,0,0.66);
+    background-color: rgba(131, 40, 120, 0.548);
+}
+/* @media screen and (max-width:500px) {
+    body {
+        background-size: 100%;
+    }
+    form {
+        width: 100%;
+    }
+} */
